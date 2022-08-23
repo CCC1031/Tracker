@@ -111,8 +111,8 @@ body {
 .checkbox {
     height: 17px;
     width: 17px; 
-    right: 477px;
-    bottom: 133px;
+    right: 482px;
+    bottom: 134px;
     position: absolute;
 }
 .remember-text {
@@ -142,6 +142,12 @@ body {
     border-radius: 2px;
     color: white; 
     font-size: 15px;
+}
+.btn:hover { 
+    position: relative; 
+    cursor: pointer;
+    background-color: rgb(104, 157, 242);
+    color: white; 
 }
 .sign-up-wrap {
     font-family: Arial, Helvetica, sans-serif;

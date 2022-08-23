@@ -13,3 +13,9 @@ function myFunction() {
       show.type = "password";
     }
   }
+
+
+//   function myFunction() {
+//     document.getElementById("myemail").required = true;
+//   }
+
