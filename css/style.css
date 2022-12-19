@@ -21,18 +21,23 @@ body {
                        rgba(0,0,0,0.3) 50%,
                        rgba(0,0,0,0.3) 100%),
                         url("img/sign-in.jpg") fixed;
+    background: black ;
     width: 100%; 
     overflow: hidden;
     background-size:cover;
     height: 100vh; 
     border: 1px solid black; 
 }
+
+
+
+
 .sign-in-wrap {
     width: 385px; 
     height: 430px; 
     margin: 300px auto; 
     background-color: white;
-    border-radius: 3px;
+    border-radius: 3px solid black;
 }
 .sign-in-header {
     font-family: Arial, Helvetica, sans-serif;
@@ -89,9 +94,9 @@ body {
 }
 #show-password {
     position: relative;
-    top: 15px;
+    top: 13.5px;
     font-size: 20px; 
-    right: 10px; 
+    right: 33px; 
     color: rgb(184, 183, 183) ;
     cursor: pointer;
 }
