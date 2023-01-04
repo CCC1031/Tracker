@@ -77,7 +77,7 @@ background-image: url("/img/home.jpg");
 .input-two:hover {
     background-color: rgb(231, 244, 255);
 }
-#show-password {
+.show-password {
     position: relative;
     top: 13.5px;
     font-size: 20px; 
@@ -85,6 +85,11 @@ background-image: url("/img/home.jpg");
     color: rgb(184, 183, 183) ;
     cursor: pointer;
 }
+
+.show-password:hover {
+    color: rgb(195, 118, 118) ;
+}
+
 .remember { 
     position: relative;
     top: 70px; 
